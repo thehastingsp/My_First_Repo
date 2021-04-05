@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>  
+<title>I am a Title</h1>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
+</head>
+<body>
+    <h1>I am a Heading</>
+    <p>I am a paragraph</>
+    <a href=https://www.google.com>Hi, I am a link</a>
+</body>
+</html>
