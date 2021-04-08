@@ -1,0 +1,21 @@
+nav {
+  height: 50px;
+  background-color: lightgrey;
+}
+.inline-block{
+  display: inline-block;
+  padding: 15px;
+}
+.left {
+heigth: 500px;
+float:left;
+}
+.right {
+  height: 500px;
+  float:left;
+}
+/* target the class of inline-block below */
+
+/* target the class of .left below */
+
+/* target the class of .right below */
