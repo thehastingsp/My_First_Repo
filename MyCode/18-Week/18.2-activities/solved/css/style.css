@@ -61,6 +61,15 @@ body {
   width: 300px;
   margin: 50px auto;
 }
+.categoryGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
 
 #categoryGrid {
   margin: 0px 5%;
@@ -70,14 +79,12 @@ body {
   grid-template-areas:
   "bookcases bedroom patio"
   "couches couches patio"
-  "desks desks desks"
-  ;
+  "desks desks desks";
 }
 
 #bookcases {
   grid-area: bookcases;
   background-image: url("../images/bookcases@2x.png");
-
 }
 #bedroom {
   grid-area: bedroom;
@@ -99,15 +106,6 @@ body {
   background-image: url("../images/desks@2x.png");
 }
 
-.categoryGridArea {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 5px;
-  cursor: pointer;
-  display: grid;
-  align-content: end;
-}
 
 .heading {
   background-color: rgba(0,0,0,0.7);
@@ -192,7 +190,6 @@ h4 {
   .icons {
     margin-left: auto;
   }
-}
 
 @media only screen and (max-width: 600px) {
   #headline {
@@ -215,4 +212,3 @@ h4 {
       "desks"
     ;
   }
-}
